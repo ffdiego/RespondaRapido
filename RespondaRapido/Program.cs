@@ -9,6 +9,7 @@ builder.Services.AddSingleton<IAnswerWindow, TimedAnswerWindow>();
 builder.Services.AddSingleton<IQuestionPicker, RandomQuestionPicker>();
 builder.Services.AddSingleton<GameSession>();
 builder.Services.AddHostedService<GameClock>();
+builder.Services.AddHostedService<BrowserLauncher>();
 var app = builder.Build();
 app.UseWebSockets(); app.UseDefaultFiles(); app.UseStaticFiles();
 app.MapFallbackToFile("index.html");

@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/.vite/
+RespondaRapido/wwwroot/assets/
+RespondaRapido/wwwroot/index.html
+.dotnet/
+.nuget/

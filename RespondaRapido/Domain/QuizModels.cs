@@ -13,4 +13,6 @@ public sealed class QuizSettings {
  public string QuestionsFile { get; set; } = "perguntas.csv";
  public int LobbyNameMinLength { get; set; } = 2;
  public int LobbyNameMaxLength { get; set; } = 24;
+ public bool OpenBrowserOnStart { get; set; } = true;
+ public string BrowserUrl { get; set; } = "http://localhost:5078/";
 }
